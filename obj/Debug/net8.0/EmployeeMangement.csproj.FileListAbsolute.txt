@@ -146,3 +146,4 @@
 /home/amar/D/DotNetCore/EmployeeMangement/bin/Debug/net8.0/Scrutor.dll
 /home/amar/D/DotNetCore/EmployeeMangement/bin/Debug/net8.0/Swashbuckle.AspNetCore.Filters.dll
 /home/amar/D/DotNetCore/EmployeeMangement/bin/Debug/net8.0/Swashbuckle.AspNetCore.Filters.Abstractions.dll
+/home/amar/D/DotNetCore/EmployeeMangement/obj/Debug/net8.0/EmployeeMangement.sourcelink.json
