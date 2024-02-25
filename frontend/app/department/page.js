@@ -94,7 +94,7 @@ const DepartmentList = () => {
     // console.log(res);
     if (status == 204) {
       // console.log("The record is deleted successfully");
-      getDepartment();
+      getDepartment(accessToken);
       toast.success("Record is deleted successfully.");
     }
   };

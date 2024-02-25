@@ -115,7 +115,7 @@ const EmployeeList = () => {
     const status = await response.status;
 
     if (status == 204) {
-      getEmployee();
+      getEmployee(accessToken);
       toast.success("Record is deleted successfully.");
     }
   };

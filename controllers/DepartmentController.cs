@@ -23,7 +23,7 @@ namespace EmployeeMangement.controllers
         private readonly IDepartmentRepository _departmentRepository = departmentRepository;
         private readonly IConfiguration _configuration=configuration;
 
-        [HttpGet("GetAll"), Authorize]
+        [HttpGet("GetAll")]
         public JsonResult GetAllDepartment()
         {
             string sqlDatasource = _configuration.GetConnectionString("DefaultConnection");

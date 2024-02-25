@@ -60,7 +60,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: MyAllowSpecificOrigins,
                       policy =>
                       {
-                          policy.WithOrigins("http://localhost:3000", "http://localhost:3001")
+                          policy.WithOrigins("http://localhost:3000", "http://localhost:3001","https://coreemployeeapi.azurewebsites.net")
                           .WithMethods("GET", "POST", "PUT", "PATCH", "DELETE")
                           .AllowAnyHeader();
                       });
@@ -73,11 +73,11 @@ builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// if (app.Environment.IsDevelopment())
+// {
+app.UseSwagger();
+app.UseSwaggerUI();
+// }
 app.MapIdentityApi<IdentityUser>();
 app.UseCors(MyAllowSpecificOrigins);
 app.UseHttpsRedirection();

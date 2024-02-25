@@ -66,7 +66,7 @@ export default function Login() {
         <div className="bg-white rounded-2xl shadow-2xl flex">
           <div className="w-64 md:w-[450px] p-5">
             <div className="text-left font-bold ml-6 md:ml-0">
-              <span className="text-green-500">Blog</span>Application
+              <span className="text-green-500">Employee</span>Management
             </div>
             <div className="py-12">
               <h2 className="text-sm uppercase md:text-2xl font-bold text-green-500 mb-1">
