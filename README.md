@@ -3,8 +3,8 @@ a  [Dotnet Core](https://learn.microsoft.com/en-us/aspnet/core/introduction-to-a
 and , [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) employee management application.
 
 ## Employee Management REST APIs Endpoints
-![](/employmangment/images/part-1.png)
-![](/employmangment/images/part-2.png)
+![](/images/part-1.png)
+![](/images/part-2.png)
 
 ## App Features
 
